@@ -2,7 +2,7 @@
 
 Last updated: April 26, 2026
 
-Prompt Expert is a browser extension for Microsoft Edge and Google Chrome. It helps users improve and structure prompts on supported AI chat pages.
+Prompt Expert is a browser extension for Microsoft Edge. It helps users improve and structure prompts on supported AI chat pages.
 
 ## What Prompt Expert does
 
@@ -28,7 +28,7 @@ Prompt Expert is designed to work on supported AI chat pages listed in the exten
 - Grok
 - DeepSeek
 
-Copilot and Perplexity are not supported in the current stable release.
+Copilot and Perplexity are not supported in this stable release.
 
 ## Data sent to external API providers
 
@@ -68,11 +68,23 @@ Prompt Expert stores some data locally in your browser, including:
 
 This data is stored on your device using browser extension storage.
 
+## User controls
+
+You can remove your API key at any time in the extension settings.
+
+You can switch between local API key storage and session-only storage, if supported by your browser.
+
+You can clear locally stored extension data by removing the extension or clearing extension storage in the browser.
+
+Prompt text is sent to the selected API provider only after you click Improve or Pro.
+
+You can stop using the extension on supported websites by disabling or removing the extension in Microsoft Edge.
+
 ## Save / export feature
 
 The Save button lets you save the current prompt to a local file named `prompt_export.md`.
 
-The file is saved through your browser’s download system, usually into your default Downloads folder unless your browser settings specify otherwise.
+The file is saved through your browser's download system, usually into your default Downloads folder unless your browser settings specify otherwise.
 
 Prompt Expert may keep a bounded local export history in browser storage so the saved file can contain recent saved prompts.
 
@@ -106,7 +118,9 @@ Your use of Groq or Google Gemini is subject to the terms and privacy policies o
 
 You should not send sensitive personal data, confidential business information, passwords, secrets, private API keys, or regulated data unless you understand and accept the policies of the selected provider.
 
-## Children’s privacy
+Check the current pricing, limits, and data policies on the selected provider's official website.
+
+## Children's privacy
 
 Prompt Expert is not intended to knowingly collect data from children.
 
